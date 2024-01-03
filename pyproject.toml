@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "python-open-ai"
+version = "0.1.0"
+description = ""
+authors = ["Amy Gori <amydgori@gmail.com>"]
+
+
+[tool.poetry.dependencies]
+python = "^3.12"
+openai = "^1.6.1"
+python-dotenv = "^1.0.0"
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.12.1"
+flake8 = "^6.1.0"
+pdbpp = "^0.10.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
